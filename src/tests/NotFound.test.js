@@ -3,7 +3,7 @@ import React from 'react';
 import { NotFound } from '../pages';
 
 describe('Testa se a página notFound contém as informações corretas', () => {
-  test('Teste se a página contém um heading h2 com o texto Page requested not found', () => {
+  test('Testa se a página contém um heading h2 com o texto Page requested not found', () => {
     render(<NotFound />);
 
     const title = screen.getByRole(
