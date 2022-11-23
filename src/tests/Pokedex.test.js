@@ -92,7 +92,7 @@ describe('Testa se a página Pokedex renderiza as informações corretas.', () =
     });
     expect(imgPokemon).toHaveLength(1);
   });
-  test('Teste se a Pokédex contém um botão para resetar o filtro.', () => {
+  test('Testa se a Pokédex contém um botão para resetar o filtro.', () => {
     renderWithRouter(
       <Pokedex
         pokemonList={ pokemonList }
